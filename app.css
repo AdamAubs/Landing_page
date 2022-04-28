@@ -1,0 +1,9 @@
+img{
+    width: 200px;
+    height: auto;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
