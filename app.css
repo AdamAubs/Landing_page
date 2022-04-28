@@ -7,8 +7,9 @@
 }
 
 img{
-    width: 200px;
-    height: auto;
+    max-width: 150px;
+    max-height: 210px;
+    border-radius: 1em;
 }
 
 body{
@@ -62,5 +63,78 @@ a:hover{
 .navbar ul{
     display: flex;
     gap: 10px;
+}
+
+.header{
+    background-color: bisque;
+    color: black;
+    min-height: 300px;
+}
+
+.header h1{
+    font-size: large;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header img{
+    max-width: 400px;
+}
+
+.header, .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    padding: 5px;
+    background-color: rgb(91, 91, 218);
+    color: black;
+    font-weight: bold;
+    border: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button:hover{
+    color: aliceblue;
+}
+.info{
+    background-color: rgb(185, 167, 142);
+}
+.section, .title{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info .container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.box{
+    background: whitesmoke;
+    color: black;
+    /*border-radius: 10px;
+    margin: 10px 10px;
+    padding: 20px 20px;*/
+    max-width: 200px;
+}
+
+.reviews{
+    background-color: beige;
+}
+.reviews p{
+    margin: 10px 20px;
+    font-style: italic;
+    padding: 100px;
 }
 
